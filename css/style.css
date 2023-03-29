@@ -1,0 +1,213 @@
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: -30px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/Buy.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    transition: background-image 1s;
+}
+
+nav {
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: var(--main-color);
+    border-bottom: 3px solid red;
+}
+
+nav .btn {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-right: 7%;
+    color: white;
+}
+
+nav .btn:hover {
+    color: red;
+}
+
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+.b2 {
+    background-color: black;
+    color: white;
+}
+
+#search-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.search {
+    position: absolute;
+    top: 15%;
+    right: 0;
+    left: 0;
+    background: var(--bg-color);
+    box-shadow: 4px 4px 20px rgba(15, 54, 55/10%);
+    border: 1px solid var(--main-color);
+    border-radius: 0.5rem;
+}
+
+.search input {
+    margin-left: 70%;
+    margin-top: -70%;
+    color: white;
+    width: 20%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+}
+
+menu ul li a {
+    color: white;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+.conteiner {
+    display: flex;
+    margin-top: 70px;
+}
+
+.card {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: min-content;
+    padding: 20px;
+    border-radius: 50px;
+    background: #db3333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: 3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card .card-image {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    padding: 0 20px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 12px;
+}
+
+.card .card-image img {
+    width: 100%;
+    transition: 4s ease;
+}
+
+.card:hover .card-image img {
+    transform: scale(1.02) rotate(-3deg);
+}
+
+.card .card-image .bx-star {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    color: #f7ae04;
+    background: #d81010;
+    border-radius: 10px;
+    box-shadow: 0 00 30px rgba(0, 0, 0, 0.4);
+}
+
+.card .card-content h3 {
+    color: #d21515;
+    font-size: 22px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.card .card-content p {
+    margin: 8px 0 22px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #db0b0b;
+    padding-left: 35%;
+    margin: 8px 0 22px;
+    text-align: justify;
+}
+
+.card .card-content button {
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #fabd14, #eb9616);
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+.b3 {
+    background-color: black;
+    color: white;
+}
+
+form {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 35%;
+
+}
+
+p {
+    color: white;
+}
+
+footer {
+    margin-top: 100px;
+    background-image: url(../img/i_bg2.jpg);
+
+}
+/* -------------------------------------------------------------------------------------------------- */
